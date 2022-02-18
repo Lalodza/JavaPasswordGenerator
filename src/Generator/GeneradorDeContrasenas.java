@@ -34,7 +34,7 @@ public class GeneradorDeContrasenas {
 					"\nSi quiere otra opcion de contraseña pulse "+OTRA);
 			respuesta = sc.next();
 		} while(respuesta.equalsIgnoreCase(OTRA));
-		System.out.println("\nFIN :D");
+		System.out.println("\n*************  FIN :D  ******************");
 		sc.close();
 	}
 
